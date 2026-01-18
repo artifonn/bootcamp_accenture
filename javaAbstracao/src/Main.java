@@ -10,7 +10,7 @@ public class Main {
 		String nome = scanner.next();
 		System.out.println("Informe a sua idade: ");
 		int idade = scanner.nextInt();
-		System.out.println("Informe a sua altura (ex: 1.80: ");
+		System.out.println("Informe a sua altura (ex: 1,80: ");
 		double altura = scanner.nextDouble();
 
 		pessoa.setNome(nome);

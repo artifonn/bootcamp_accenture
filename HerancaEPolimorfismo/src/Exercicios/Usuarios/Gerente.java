@@ -14,4 +14,8 @@ public class Gerente extends Usuario {
   public void gerarRelatorioCompleto() {
     System.out.println("Relatório completo gerado.");
   }
+
+  public void setNome(String nome) {
+    this.nome = nome;
+  }
 }
